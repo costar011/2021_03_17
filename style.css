@@ -1,0 +1,23 @@
+.parent {
+  width: 100%;
+}
+
+.parent_top {
+  width: 100%;
+  height: 60px;
+  background-color: #1c41e8;
+}
+
+.parent .parent_bottom {
+  width: 100%;
+  
+  background-color: #4868fa;
+  padding-bottom: 40px;
+
+  display: none;
+  
+}
+
+.parent:hover .parent_bottom {
+    display: block;
+}
